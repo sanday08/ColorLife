@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import LoginScreen from './screens/LoginScreen';
 import RegisterScreen from './screens/RegisterScreen';
 import HomeScreen from './screens/HomeScreen';
-import Dashboard from './screens/dashboard/Dashboard';
+import Dashboard from './screens/Dashboard';
 
 function App() {
   return (

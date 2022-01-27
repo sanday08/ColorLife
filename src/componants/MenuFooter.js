@@ -5,12 +5,12 @@ const menuFooter = () => {
     return <div>
         <section
             id="bottom-navigation"
-            className="block fixed inset-x-0 bottom-0 z-10 bg-white shadow"
+            className="fixed inset-x-0 bottom-0 z-10 block bg-white shadow"
         >
             <div id="tabs" className="flex justify-between">
                 <Link
                     to='/'
-                    className="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1"
+                    className="justify-center inline-block w-full pt-2 pb-1 text-center focus:text-teal-500 hover:text-teal-500"
                 >
                     <svg
                         width="25"
@@ -55,11 +55,11 @@ const menuFooter = () => {
                             ></rect>
                         </g>
                     </svg>
-                    <span className="tab tab-home block text-xs">Home</span>
+                    <span className="block text-xs tab tab-home">Home</span>
                 </Link>
                 <Link
                     to='/dashboard'
-                    className="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1"
+                    className="justify-center inline-block w-full pt-2 pb-1 text-center focus:text-teal-500 hover:text-teal-500"
                 >
                     <svg
                         width="25"
@@ -104,11 +104,11 @@ const menuFooter = () => {
                             </g>
                         </g>
                     </svg>
-                    <span className="tab tab-kategori block text-xs">WinGo</span>
+                    <span className="block text-xs tab tab-kategori">WinGo</span>
                 </Link>
                 <Link
                     to='/'
-                    className="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1"
+                    className="justify-center inline-block w-full pt-2 pb-1 text-center focus:text-teal-500 hover:text-teal-500"
                 >
                     <svg
                         width="25"
@@ -136,7 +136,7 @@ const menuFooter = () => {
                             ></circle>
                         </g>
                     </svg>
-                    <span className="tab tab-explore block text-xs">Explore</span>
+                    <span className="block text-xs tab tab-explore">Explore</span>
                 </Link>
             </div>
         </section>
